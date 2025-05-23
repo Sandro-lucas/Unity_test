@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ZRum Corrida pela vida.sln"
+    "dotnet.defaultSolution": "ZRum_Corrida_pela_vida.sln"
 }
