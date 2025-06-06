@@ -23,7 +23,7 @@ public class move : MonoBehaviour
         Vector3 movimento = new Vector3(horizontal, 0, vertical);
         movimento = myCamera.TransformDirection(movimento);
         movimento.y = 0; // Ensure no vertical movement
-        controller.Move(movimento * Time.deltaTime * 5);
+        controller.Move(movimento * Time.deltaTime * 10);
         controller.Move(new Vector3(0, -9.81f * Time.deltaTime, 0));
         if (movimento != Vector3.zero)
         {
